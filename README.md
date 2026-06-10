@@ -1,8 +1,4 @@
-Based on the files visible in your repository (like `app.py`, `bp_monitor_esp32.ino`, the `start_arogya.sh` scripts, and the various blood pressure testing scripts), ArogyaVision appears to be a health monitoring system integrating hardware (ESP32) and a Streamlit web interface.
 
-Here is a ready-to-use Markdown template for your `README.md` that you can copy and paste directly into the editor:
-
-```markdown
 # 🩺 ArogyaVision
 
 ArogyaVision is a comprehensive health monitoring system that integrates hardware-based vitals tracking with an interactive web dashboard. It features live blood pressure monitoring via ESP32, a Streamlit-based user interface, and Text-to-Speech (TTS) capabilities.
