@@ -1,0 +1,60 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.204.137.121:8501
+
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff9c668050>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff9c668050>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff9c668050>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff9c668050>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff8d13cc90>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff8d13cc90>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff8d215610>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff8d2147d0>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff8d216190>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists

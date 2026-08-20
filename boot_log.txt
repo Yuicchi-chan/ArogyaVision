@@ -1,0 +1,18 @@
+2026-04-18 07:40:15.760 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.137.204:8502
+
+Opening in existing browser session.
+[DBG 08:14:14] [INFO] Startup serial bootstrap begin
+[DBG 08:14:14] [INFO] Simple role inference start. Detected ports=['/dev/ttyUSB0', '/dev/ttyUSB1'], using=['/dev/ttyUSB0', '/dev/ttyUSB1']
+[DETECT RAW] /dev/ttyUSB1@9600: {"temp":87.134,"hr":0,"spo2":0,"stress":"Normal","touch":true}
+[DBG 08:14:15] [INFO] Opening Vitals Sensor on /dev/ttyUSB1 @ 9600
+[OK] Connected to Vitals Sensor at /dev/ttyUSB1 (9600 baud)
+[DBG 08:14:15] [INFO] Opening BP Monitor on /dev/ttyUSB0 @ 115200
+[OK] Connected to BP Monitor at /dev/ttyUSB0 (115200 baud)
+[DBG 08:14:17] [INFO] Readiness verification -> Vitals: lines=18 json=17 vitals=17 | BP: lines=0 data=0 hints=0
+[DBG 08:14:17] [INFO] Startup serial bootstrap done: vitals=/dev/ttyUSB1@9600 bp=/dev/ttyUSB0@115200 status=Auto-detected vitals_ready=True bp_ready=False

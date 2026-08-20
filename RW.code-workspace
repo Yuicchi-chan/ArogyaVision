@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../Project/CANSAT/RW"
+		},
+		{
+			"name": "testproject",
+			"path": "../../../Documents/PlatformIO/Projects/testproject"
+		}
+	],
+	"settings": {}
+}

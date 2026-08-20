@@ -1,0 +1,149 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://10.204.137.121:8501
+
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff00d47cd0>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff00d47cd0>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7ffee3c6e210>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7ffee3c6e210>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff04008190>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff04008190>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 197, in _onSynth
+    self._proxy.notify(
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+Exception ignored on calling ctypes callback function: <bound method EspeakDriver._onSynth of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fff04008190>>
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/pyttsx3/drivers/espeak.py", line 245, in _onSynth
+    self._proxy.notify("finished-utterance", completed=True)
+    ^^^^^^^^^^^^^^^^^^
+ReferenceError: weakly-referenced object no longer exists
+2026-04-10 19:37:44.551 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/pi/Desktop/New/ArogyaVision/env/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/Desktop/New/ArogyaVision/app.py", line 875, in <module>
+    conn.execute("INSERT INTO patients VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+sqlite3.OperationalError: table patients has 9 columns but 12 values were supplied
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+✓ Connected to /dev/ttyUSB0 at 9600 baud
+✓ Connected to /dev/ttyUSB1 at 115200 baud
+[AI] API Error: 404
+  Stopping...
